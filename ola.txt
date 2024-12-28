@@ -1,0 +1,16 @@
+{"1": {
+        "country": "Russia",
+        "city": "Moscow"
+    },
+    "2": {
+        "country": "France",
+        "city": "Paris"
+    },
+    "3": {
+        "country": "Spain",
+        "city": "Madrid"
+    },
+    "4": {
+        "country": "Portugal",
+        "city": "Lisbon"
+    }}

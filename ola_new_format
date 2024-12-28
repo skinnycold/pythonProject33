@@ -1,0 +1,20 @@
+{"1": {
+        "country": "Russia",
+        "city": "Moscow",
+        "temp":"20"
+    },
+    "2": {
+        "country": "France",
+        "city": "Paris",
+        "temp":"22"
+    },
+    "3": {
+        "country": "Spain",
+        "city": "Madrid",
+        "temp":"25"
+    },
+    "4": {
+        "country": "Portugal",
+        "city": "Lisbon",
+        "temp":"30"
+    }}
