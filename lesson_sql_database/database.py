@@ -1,11 +1,15 @@
 import mysql.connector as mysql
+import os
+from dotenv import load_dotenv
+load_dotenv(override=True)
+
 
 config = {
-    'user':'st-onl',
-    'passwd':'AVNS_tegPDkI5BlB2lW5eASC',
-    'host':'db-mysql-fra1-09136-do-user-7651996-0.b.db.ondigitalocean.com',
-    'port':'25060',
-    'database':'st-onl'
+    'user':os.getenv('USER'),
+    'passwd':os.getenv('PASSWD'),
+    'host':os.getenv('HOST'),
+    'port':os.getenv('PORT'),
+    'database':os.getenv('DATABASE')
 }
 
 connection = mysql.connect(**config)
